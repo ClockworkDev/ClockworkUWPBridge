@@ -1,5 +1,4 @@
 var fs = require('fs-extra');
-var multer = require('multer');
 var rmdir = require('rimraf');
 var decompress = require('decompress');
 var fstream = require('fstream');
