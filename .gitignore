@@ -1,0 +1,7 @@
+projects/*
+uploads/*
+template/.vs
+template/ClockworkUWPTemplate/AppPackages
+template/ClockworkUWPTemplate/bin
+template/ClockworkUWPTemplate/bld/
+node_modules/
