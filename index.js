@@ -42,7 +42,6 @@ function build(path, outPath) {
                     },
                     file: function (root, fileStats, next) {
                         var relativePath = (root.replace(/\\/g,"/") +"/" +fileStats.name).replace(folderName + "/ClockworkUWPTemplate/", "");
-                        console.log("relpath "+relativePath);
                         files += '    <Content Include="' + relativePath + '" />\n';
                         next();
                     }, errors: function (root, nodeStatsArray, next) {
