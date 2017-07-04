@@ -4,5 +4,5 @@ CLOCKWORKRT.API.appPath=function(){
 CLOCKWORKRT.apps={};
 CLOCKWORKRT.apps.getDependency=function(name,version,callback){
     //Load cached dependencies
-    loadTextFile("ms-appx:///game/dependencies/"+name+"/"+version, callback);
+    loadTextFile("ms-appx:///game/dependencies/"+name+"/"+version+ ".js", callback);
 }
