@@ -14,12 +14,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "clockwork-web-bridge": "^0.2.16",
-    "decompress": "^4.2.0",
+    "clockwork-web-bridge": "^0.2.17",
     "fs-extra": "^2.1.2",
     "regedit": "^2.2.7",
     "request": "^2.81.0",
-    "rimraf": "^2.6.2",
     "unzip": "^0.1.11",
     "walk": "^2.3.9"
   }

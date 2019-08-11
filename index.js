@@ -1,11 +1,6 @@
 var fs = require('fs-extra');
-var rmdir = require('rimraf');
-var decompress = require('decompress');
-var fstream = require('fstream');
-var spawn = require('child_process').spawn;
 var webBridge = require('clockwork-web-bridge');
 var walk = require('walk');
-var path = require('path');
 
 function build(path, outPath) {
     return new Promise(function (resolve, reject) {
